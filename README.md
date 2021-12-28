@@ -53,7 +53,7 @@ Options:
 ```
 
 
-## run QTLseq
+### run QTLseq
 
 
 ```
