@@ -134,6 +134,7 @@ sub USAGE {
 
         -win        <int>       optional, 拟合窗口大小, default 2000000
         -step       <int>       optional, 拟合步长，default 100000
+        -power      <int>       optional, ED power，default 4
 
         -plotthrED           <float>     optional，用于ED绘图，默认为 median+3*SD
         -plotthrIndex        <float>     optional，用于SNP-index绘图，默认为计算机模拟实验99%与95%置信区间
