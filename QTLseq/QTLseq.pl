@@ -112,19 +112,21 @@ sub USAGE {
 	my $usage=<<"USAGE";
 	Program: $0
 	Version: $version
-	Contact: BioMarble <biomarble\@163.com>
+	Contact: Marble <biomarble\@163.com>
 	Discription:
 	Usage:
         Options: 
         -vcf        <file>      required, SNP文件,vcf格式
-        -parent1    <string>    required, 突变性状亲本样品名（对应VCF文件）
-        -parent2    <string>    required, 野生性状亲本样品名（对应VCF文件）
+        -parent1    <string>    required, 突变性状亲本样品名（对应VCF文件）, optional for ED.
+        -parent2    <string>    required, 野生性状亲本样品名（对应VCF文件）, optional for ED.
         
         -bulk1      <string>    required, 突变性状混池样品名（对应VCF文件）
         -bulk2      <string>    required, 野生性状混池样品名（对应VCF文件）
         
         -key        <string>    optional, 项目关键词，default:BSA
         -od         <string>    optional, 输出目录，default:BSAOut
+
+        -method     <string>    optional, 分析方法, ed,index或both， 默认:both
 
         -minDP1     <int>       optional, 亲本最低深度，default:8
         -minDP2     <int>       optional, 子代混池最低深度，default:20

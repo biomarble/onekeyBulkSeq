@@ -76,8 +76,8 @@ sub USAGE {
 	Usage:
         Options: 
         -vcf        <file>      required, SNP文件,vcf格式
-        -p          <string>    required, 野生亲本样品名（对应VCF文件） 
-        -s          <string>    required, 突变混池样品名（对应VCF文件） 
+        -parent          <string>    required, 野生亲本样品名（对应VCF文件） 
+        -bulk          <string>    required, 突变混池样品名（对应VCF文件） 
         -key        <string>    optional, 项目关键词，default:key
         -od         <string>    optional, 输出目录，default:MutmapOut
 
